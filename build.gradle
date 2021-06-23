@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+    compile 'javax.servlet:servlet-api:2.5'
+    compile 'org.springframework:spring-webmvc:4.3.18.RELEASE'
+
+    compile group: 'com.github.jknack', name: 'handlebars', version: '4.0.6'
+    compile group: 'com.github.jknack', name: 'handlebars-springmvc', version: '4.0.6'
+
+}
+

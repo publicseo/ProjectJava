@@ -1,0 +1,12 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="freeBoard">
+    <output-path>$PROJECT_DIR$/out/artifacts/freeBoard</output-path>
+    <root id="archive" name="freeBoard.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Gradle: junit:junit:4.12" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
